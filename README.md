@@ -1,15 +1,8 @@
-𝗤𝘂𝗶𝗰𝗸 𝗦𝗼𝗿𝘁 𝗶𝗻 𝗖𝗨𝗗𝗔
+# Quick Sort folosind varianta secvențială
 
-𝗗𝗲𝘀𝗰𝗿𝗶𝗲𝗿𝗲
+Quick Sort este un algoritm de sortare foarte eficient, care funcționează pe principiul „divide et impera”. Ideea de bază este să alegem un element din listă numit pivot, să organizăm elementele astfel încât cele mai mici să fie pe stânga, cele mai mari pe dreapta, și apoi să aplicăm recursiv aceeași metodă pe sublistele rezultate.
 
-Acest proiect implementează algoritmul Quick Sort utilizând C++ și CUDA pentru a exploata puterea de calcul paralelă a plăcilor grafice. Implementarea utilizează o abordare recursivă, gestionată printr-un stack explicit, pentru a depăși limitările CUDA legate de recursivitate.
-
-𝗖𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝗶𝘀𝘁𝗶𝗰𝗶
-
-- Implementare paralelizată a Quick Sort utilizând CUDA C++
-
-- Folosirea memoriei globale pentru stocarea și gestionarea apelurilor recursive
-
-- Optimizare pentru coalescarea memoriei și reducerea warp divergence
-
-- Comparare a performanței între implementarea CPU și GPU
+Pașii algoritmului Quick Sort:
+- Alegerea pivotului – De obicei, se ia ultimul element din listă (dar poate fi și unul aleatoriu).
+- Partiționarea listei – Se rearanjează elementele astfel încât toate valorile mai mici decât pivotul să fie în stânga acestuia, iar cele mai mari în dreapta. Pivotul ajunge la poziția finală.
+- Recursivitate – Se aplică aceiași pași pe cele două subliste (cea din stânga pivotului și cea din dreapta).
