@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\mierm\source\repos\QuickSort_S6\QuickSort_S6\main.cpp(46,30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  QuickSort_S6.vcxproj -> C:\Users\mierm\source\repos\QuickSort_S6\x64\Debug\QuickSort_S6.exe
