@@ -1,4 +1,0 @@
-﻿  QuickSort.cpp
-E:\APD_QuickSort-main\QuickSort.cpp(69,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  QuickSort.vcxproj -> E:\APD_QuickSort-main\bin\x64\Debug\QuickSort.exe
-          1 file(s) copied.
